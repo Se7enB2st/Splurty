@@ -28,8 +28,20 @@
   </header>
   <hr />
   <br class="clear" />
-
+<div class ="container">
   <%= yield %>
+</div>
 
+<div class = "footer">
+  <div class = "container">
+    <div class = "col-xs-6 footer-blurb">
+      <%= link_to "This isn't enough, I need more!", "#", class: "next-quote" %>
+    </div>
+    <div class = "col-xs-6 learn-more">
+      Proudly hacked by <a href = "https://twitter.com/Se7enB2st">Ethan</a><br />
+      Want to learn more about me and my projects? <a href="http://codedoko.com/"> Learn Here!</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>
