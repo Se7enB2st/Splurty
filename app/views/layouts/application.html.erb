@@ -9,6 +9,7 @@
 <body>
   <header>
     <div class = 'col-xs-3'>
+      <%= link_to root_path class: "logo" do %>
       <div class="circle">
         <br />
         You know
@@ -17,31 +18,32 @@
         <br />
         to code
       </div>
+      <% end %>
     </div>
     <div class = "col-xs-4 slogan">
       Splurting out random advice about programming!
     </div>
     <div class = "col-xs-5 links">
-      <%= link_to "Contribute", "#" %>
+      <%= link_to "Contribute", new_quote_path %>
       <%= link_to "About", "#" %>
     </div>
   </header>
   <hr />
   <br class="clear" />
-<div class ="container">
-  <%= yield %>
-</div>
+  <div class ="container">
+    <%= yield %>
+  </div>
 
-<div class = "footer">
-  <div class = "container">
-    <div class = "col-xs-6 footer-blurb">
-      <%= link_to "This isn't enough, I need more!", "#", class: "next-quote" %>
-    </div>
-    <div class = "col-xs-6 learn-more">
-      Proudly hacked by <a href = "https://twitter.com/Se7enB2st">Ethan</a><br />
-      Want to learn more about me and my projects? <a href="http://codedoko.com/"> Learn Here!</a>
+  <div class = "footer">
+    <div class = "container">
+      <div class = "col-xs-6 footer-blurb">
+        <%= link_to "This isn't enough, I need more!", "#", class: "next-quote" %>
+      </div>
+      <div class = "col-xs-6 learn-more">
+        Proudly hacked by <a href = "https://twitter.com/Se7enB2st">Ethan</a><br />
+        Want to learn more about me and my projects? <a href="http://codedoko.com/"> Learn Here!</a>
+      </div>
     </div>
   </div>
-</div>
 </body>
 </html>
