@@ -6,7 +6,7 @@
   font-style: italic;
   position: relative;
   border-radius: 100%;
-  background: #f84342;
+  background: #5e66cb;
   border: 1px solid #F7F7F7;
   width: 80px;
   height: 80px;
@@ -19,6 +19,13 @@
   transform:rotate(11deg);
   -ms-transform:rotate(11deg); /* IE 9 */
   -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+}
+.circle:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  background-color:#f74a5c;
 }
 .slogan{
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
@@ -34,9 +41,14 @@
   border-bottom: 1px solid #9d9b9b;
   font-family: 'kaushan_scriptregular';
   font-weight: bold;
+  text-decoration: none;
+}
+.links a:hover{
+  color: #cf3b74;
+  font-size: 200%;
 }
 header{
-  border-top: 9px solid #f76c6c;
+  border-top: 9px solid #5e66cb;
 }
 hr{
   clear: both;
@@ -51,14 +63,17 @@ h2{
 }
 h2 span{
   font-family: 'kaushan_scriptregular';
-  color: #e75454;
+  color: #5e66cb;
 }
 .next-quote {
-  color: #f84352;
+  color: #5e66cb;
   font-family: 'kaushan_scriptregular';
   font-size:25px;
 }
-
+.next-quote:hover{
+  color: #cf3b74;
+  font-size: 180%;
+}
 .footer-blurb{
   font-family:"Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
@@ -80,5 +95,5 @@ h2 span{
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 ::selection {
-  background-color: #f84342;
+  background-color: #5e66cb;
 }
