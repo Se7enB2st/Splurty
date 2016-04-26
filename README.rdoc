@@ -1,11 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Splurty application is a database-powered quotes generator with a slick, mobile-first design, built with Ruby on Rails, HTML, CSS3, GitHub and Heroku.
 
-Things you may want to cover:
+Things you may want to know:
 
 * Ruby version
+Ruby Version 1.7 and up
 
 * System dependencies
 
