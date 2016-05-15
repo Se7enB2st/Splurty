@@ -1,30 +1,11 @@
 == README
 
-The Firehose Project
+https://splurty-ethan-he.herokuapp.com/
 
-Splurty application is a database-powered quotes generator with a slick, mobile-first design, built with Ruby on Rails, HTML, CSS3, GitHub and Heroku. 
+Splurty Application for The Firehose Project
 
-Things you may want to know:
-
-* Ruby version
-Ruby Version 1.7 and up
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Splurty is a database-powered quotes generator with a slick, mobile-first design, built with Ruby on Rails, HTML, CSS3, GitHub and Heroku. 
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+
